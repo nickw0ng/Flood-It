@@ -1,4 +1,4 @@
-**FLOOD IT GAME:**
+# Flood It Game
 This Java code represents a simple implementation of the Flood It game. In Flood It, the player's goal is to fill the entire game board with a single color within a limited number of moves.
 
 **CODE STRUCTURE**
