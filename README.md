@@ -4,13 +4,17 @@ This Java code represents a simple implementation of the Flood It game. In Flood
 ## CODE STRUCTURE
 The code consists of several classes:
 
-# ICell An interface representing a cell in the game board. It includes methods to check if the cell is flooded and if it's a regular cell.
+# ICell 
+An interface representing a cell in the game board. It includes methods to check if the cell is flooded and if it's a regular cell.
 
-# Cell Represents a single square on the game board. Each cell has coordinates, a color, and information about whether it's flooded. It also has references to its adjacent cells. The connectCells method establishes connections between cells based on their positions in the grid.
+# Cell 
+Represents a single square on the game board. Each cell has coordinates, a color, and information about whether it's flooded. It also has references to its adjacent cells. The connectCells method establishes connections between cells based on their positions in the grid.
 
-# MtCell Represents a non-existent cell. It's used to handle border cases where a cell might not have all adjacent neighbors.
+# MtCell 
+Represents a non-existent cell. It's used to handle border cases where a cell might not have all adjacent neighbors.
 
-# FloodItWorld The main class representing the game world. It manages the game board, tracks the player's clicks, and handles game logic such as flooding cells with the same color. It also provides methods for drawing the game board, handling player input, and determining game outcomes.
+# FloodItWorld 
+The main class representing the game world. It manages the game board, tracks the player's clicks, and handles game logic such as flooding cells with the same color. It also provides methods for drawing the game board, handling player input, and determining game outcomes.
 
 
 ## Game Mechanics
